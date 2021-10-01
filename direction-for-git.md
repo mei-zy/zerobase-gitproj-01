@@ -13,3 +13,14 @@ $git mv source destination
 ```
 
 
+## 파일 상태 되돌리기 (Unstaged)
+
+```
+git checkout -- 파일명
+git checkout -- .
+```
+
+> git checkout은 브런치 이동하는 switch와 상태를 되돌리는 checkout으로 분리되었음
+
+
+
