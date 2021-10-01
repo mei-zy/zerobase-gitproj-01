@@ -34,7 +34,18 @@ git reset head 파일명
 
 ## 메시지 되돌리기
 
+
 ```
 git commit --amend /* 최근 커밋메시지 수정 */
 ```
+
+
+## 커밋 되돌리기
+
+```
+git revert --no-commit HEAD~3.. /* 최근 커밋 3개 전으로 */
+git commit
+```
+
+
 
