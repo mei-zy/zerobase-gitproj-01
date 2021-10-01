@@ -23,4 +23,10 @@ git checkout -- .
 > git checkout은 브런치 이동하는 switch와 상태를 되돌리는 checkout으로 분리되었음
 
 
+## 스테이지에 올라간 파일을 언스테이지로 내리기 
 
+```
+git reset head 파일명
+```
+
+> reset --hard 키워드는 유의할 것 
