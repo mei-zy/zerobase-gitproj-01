@@ -12,3 +12,10 @@
 
 `git flow feature finish (feature name)`을 진행해서 기능을 완료한다.
 
+3) release and push
++ release 시작
+
+`git flow release start (version)`해서 release 해준다.
+
+`git push -u origin develop` : 처음 push 할 때
+`git push --tags`
