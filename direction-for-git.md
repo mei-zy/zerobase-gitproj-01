@@ -29,4 +29,12 @@ git checkout -- .
 git reset head 파일명
 ```
 
-> reset --hard 키워드는 유의할 것 
+> reset --hard 키워드는 유의할 것
+
+
+## 메시지 되돌리기
+
+```
+git commit --amend /* 최근 커밋메시지 수정 */
+```
+
